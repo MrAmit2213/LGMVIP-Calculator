@@ -1,0 +1,50 @@
+body{
+  background-image: url(https://img.freepik.com/free-photo/calculator-money-notepad-orange-background-copy-space_169016-24503.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+  
+.center{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.device{
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin-top: 50px;
+  width: fit-content;
+  background-color: rgba(180, 33, 33, 0.305);
+}
+
+button{
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+input{
+  width: 200px;
+  background-color: rgba(67, 72, 71, 0.556);
+  color: white;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.border{
+  height: 2px;
+  background-color: black;
+  margin: 5px 0 10px;
+}
+
+::placeholder{
+  color: antiquewhite;
+}
